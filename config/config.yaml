@@ -1,0 +1,28 @@
+data:
+  train_path: "lte_participants_data/BG_Data_Hackathon_Train_masked.csv"
+  test_path: "lte_participants_data/BG_Data_Hackathon_Test_Predict_masked.csv"
+  output_path: "outputs/"
+
+model:
+  type: "ridge"
+  ridge:
+    alpha: 1.0
+
+preprocessing:
+  apply_outlier_capping: true
+  apply_scaling: false
+  validation_split: 0.2
+  random_state: 42
+  power_min_value: 0
+
+features:
+  categorical: ["country", "brand"]
+  numerical: ["meaning", "difference", "salience", "premium"]
+  time_features: ["year", "quarter_num"]
+  target: "power"
+
+evaluation:
+  calculate_pps: true
+  pps_weights:
+    rmse_skill: 0.5
+    trend_hit_rate: 0.5

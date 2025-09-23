@@ -1,1 +1,33 @@
-data
+# Project-specific directories and files
+lte_participants_data/
+outputs/
+logs/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Model files
+*.pkl
+*.joblib
