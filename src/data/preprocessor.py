@@ -138,11 +138,6 @@ class DataPreprocessor:
         df_train_result = df_train.copy()
         df_train_result.loc[df_train['power'].notnull()] = train_data_capped
         
-        # For test data, only cap the features (not target since we don't have true target values)
-        # feature_cols = ['meaning', 'difference', 'salience', 'premium']
-        # feature_bounds = {k: v for k, v in iqr_bounds.items() if k in feature_cols}
-        # df_test_result = cap_outliers(df_test, feature_bounds)
-        
         return df_train_result
     
     def _encode_categorical(self, df_train: pd.DataFrame, df_test: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFrame]:

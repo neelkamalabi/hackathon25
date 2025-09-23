@@ -14,7 +14,7 @@ The pipeline uses Ridge regression with proper data preprocessing, feature engin
 ## 📁 Project Structure
 
 ```
-Hackathon-Final/
+hackathon25/
 ├── main.py                    # Main pipeline execution script
 ├── README.md                  # Project documentation
 ├── requirements.txt           # Python dependencies
@@ -49,7 +49,7 @@ Hackathon-Final/
 
 1. **Clone/Download the repository**
    ```bash
-   cd Hackathon-Final
+   cd hackathon25
    ```
 
 2. **Install dependencies**
