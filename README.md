@@ -148,12 +148,6 @@ The pipeline behavior can be customized through `config/config.yaml`:
 - **Modular Design**: Clean separation of concerns with reusable components
 - **Validation Framework**: Built-in model validation and evaluation metrics
 
-## 🧪 Testing
-
-Run unit tests to ensure pipeline integrity:
-```bash
-python -m pytest tests/
-```
 
 ## 📝 Logging
 
@@ -179,13 +173,6 @@ The pipeline includes comprehensive evaluation metrics:
 1. Update feature engineering in `src/features/engineering.py`
 2. Configure new features in `config.yaml`
 3. Update preprocessing pipeline if needed
-
-## 📞 Support
-
-For issues or questions:
-1. Check the logs in `logs/app.log`
-2. Verify configuration in `config/config.yaml`
-3. Ensure all dependencies are installed correctly
 
 ## 🏆 Results
 
