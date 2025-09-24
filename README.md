@@ -24,8 +24,6 @@ hackathon25/
 │   ├── data/
 │   │   ├── loader.py         # Data loading utilities
 │   │   └── preprocessor.py   # Data preprocessing pipeline
-│   ├── features/
-│   │   └── engineering.py    # Feature engineering
 │   ├── models/
 │   │   ├── predictor.py      # Model training and prediction
 │   │   └── evaluator.py      # Model evaluation metrics
@@ -35,7 +33,6 @@ hackathon25/
 ├── lte_participants_data/    # Training and test datasets
 ├── outputs/                  # Generated predictions
 ├── logs/                     # Application logs
-└── tests/                    # Unit tests
 ```
 
 ## 🚀 Quick Start
